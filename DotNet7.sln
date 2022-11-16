@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{72BA84F0-E529-4EA6-B74C-AEF877038E34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TarDemo", "src\TarDemo\src\TarDemo.csproj", "{98DEE296-7AC5-4962-87DF-B810040377F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TarDemo", "TarDemo", "{CD6B0EBB-2EE7-4616-A39B-19BAC74E5601}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7E5AC933-4D0E-4518-B5D9-EA27C8916183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98DEE296-7AC5-4962-87DF-B810040377F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DEE296-7AC5-4962-87DF-B810040377F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DEE296-7AC5-4962-87DF-B810040377F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DEE296-7AC5-4962-87DF-B810040377F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98DEE296-7AC5-4962-87DF-B810040377F6} = {7E5AC933-4D0E-4518-B5D9-EA27C8916183}
+		{CD6B0EBB-2EE7-4616-A39B-19BAC74E5601} = {72BA84F0-E529-4EA6-B74C-AEF877038E34}
+		{7E5AC933-4D0E-4518-B5D9-EA27C8916183} = {CD6B0EBB-2EE7-4616-A39B-19BAC74E5601}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69EF43D0-5497-4EE2-A800-F1121B3EE388}
+	EndGlobalSection
+EndGlobal
